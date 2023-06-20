@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Série</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="filme.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body onload="carregaFilmes()">
+    <header class="container header">
+    <div class="row">
+        <div class="col-12 header_area">
+            <div class="row">
+                <div class="col-3 col-sm-3 col-md-2 col-lg-4">
+                    <a class="nav-link active" href="filme.html"><img src="logo.jpg" class="logo" alt=""></a>
+                </div>
+                    <div class="col-9 col-sm-9 col-md-10 col-xl-8 menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                <a class="nav-link" href="filme.html">Projeto 1</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="">              </a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="">           </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">               </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Projeto 2</a>
+                                </li>
+                            </ul>
+                            </div>
+                            <p></p>
+                        </nav>
+                          <input class="form-control col-6 col-xl-3" type="text" id="inputPesquisa" placeholder="Pesquisar série" aria-label="Pesquisar filme"><button class="btn btn-outline-dark col-6 col-xl-3" type="submit" id="btnPesquisa" onclick="pesquisaFilmes()"><i class="fa fa-search"></i></button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row" id="tela">
+            <div class="card col-lg-3 col-sm-6">
+                <img src="https://source.unsplash.com/random/200x300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary botaoserie">+Saber Mais</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6">
+                <img src="https://source.unsplash.com/random/200x300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary botaoserie">+Saber Mais</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6">
+                <img src="https://source.unsplash.com/random/200x300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary botaoserie">+Saber Mais</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6">
+                <img src="https://source.unsplash.com/random/200x300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary botaoserie">+Saber Mais</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6">
+                <img src="https://source.unsplash.com/random/200x300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary botaoserie">+Saber Mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer col-12">
+        <div class="footer_area">
+            <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web<strong>-ICEI PUC Minas</strong></div>
+            <div class="col-2">
+                <img src="logo.jpg" class="logofim"></p>
+            </div>
+    </footer>  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
