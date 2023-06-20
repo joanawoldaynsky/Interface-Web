@@ -1,0 +1,49 @@
+body{width: 100%;}
+.header{background-color:rgb(255, 189, 189);padding: 20px;color: black;max-width: 100%;}
+.logo{ max-width: 90px;}
+.color{background-color:rgb(255, 216, 216); width: 100%;}
+.h2{margin-bottom: 90px; text-align: center;background:rgb(255, 216, 216);}
+.slide{width: 100%;}
+.carousel-inner{margin-bottom: 50px;}
+.carousel-item{margin-left: 110px;}
+.carousel-indicators{margin-top: 110px;}
+.passagem{margin-top: 200px;margin-bottom: 0px;}
+.video{margin-right: 0px;}
+.texto{margin-left: -200px;text-align: right;}
+.menu_area{color: black;justify-content: end !important;padding: 10px;font-size:medium;}
+.titulo{justify-content: center;}
+.dropdown{text-align: right; margin-top: -90px;}
+.h3{margin-top: 50px; margin-bottom: 20px;}
+.product-grid{font-family:Raleway,sans-serif;text-align:center;padding:0 0 72px;border:1px solid rgba(0,0,0,.1);overflow:hidden;position:relative;z-index:1}
+.product-grid .product-image{position:relative;transition:all .3s ease 0s}
+.product-grid .product-image a{display:block}
+.product-grid .product-image img{width:100%;height:auto}
+.product-grid .pic-1{opacity:1;transition:all .3s ease-out 0s}
+.product-grid:hover .pic-1{opacity:1}
+.product-grid .pic-2{opacity:0;position:absolute;top:0;left:0;transition:all .3s ease-out 0s}
+.product-grid:hover .pic-2{opacity:1}
+.product-grid .product-content{background-color:#fff;text-align:center;padding:12px 0;margin:0 auto;position:absolute;left:0;right:0;bottom: -250px;z-index:1;transition:all .3s}
+.product-grid:hover .product-content{bottom:0}
+.product-grid .title{font-size:13px;font-weight:400;letter-spacing:.5px;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s}
+.product-grid .title a{color:#828282}
+.product-grid .title a:hover,.product-grid:hover .title a{color:#ef5777}
+.product-grid .price{color:#333;font-size:10px;font-family:sans-serif;font-weight:100;letter-spacing:.6px;margin-bottom:8px;text-align:left;transition:all .3s}
+.product-grid .price span{color:#999;font-size:13px;font-weight:400;text-decoration:line-through;margin-left:3px;display:inline-block}
+.product-grid .add-to-cart{color:#000;font-size:13px;font-weight:600}
+.text-dark{text-align: right; margin-top:30px; margin-bottom: 30px;}
+@media only screen and (max-width:990px){.product-grid{margin-bottom:30px;}}
+.card_deck{margin-bottom: 20px; padding: 0px;}
+.av{max-height: 370px;}
+.card_em{background:rgb(255, 216, 216); margin-bottom: 20px; margin-right: 153px;}
+.text-dark em{text-align: end; margin-bottom: 20px;}
+.container_em {max-width: 2000px;}
+.h3{margin-left: 50px;}
+.newst{font-size: 15px; font-style: italic;font-style: bold;}
+.news{margin-bottom: 50px;}
+@media screen and (max-width:576px){.pic-1{display:none;}}
+@media screen and (min-width:1024px){.news{margin-left: 150px;}}
+.last{margin-left: 10px;}
+@media screen and (min-width:1024px){.last{margin-top: 370px;}}
+.footer{background:rgb(255, 189, 189);color: white;align-items: center; padding: 10px; text-align: center; width: 100%; position:static;}
+.footer img{max-width: 50px; text-align:initial;}
+@media screen and (max-width: 1024px){.footer img{display: none;}}
